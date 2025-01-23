@@ -160,3 +160,12 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+input:invalid {
+    border: 3px solid rgb(153, 51, 32);
+    background-color: rgb(247, 110, 86);
+}
+
+input {
+    outline: none;
+}
