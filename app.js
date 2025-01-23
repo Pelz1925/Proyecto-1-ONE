@@ -11,7 +11,7 @@ function agregarAmigo() {
     // Creando el elemento <li> en una variable
     let elementoLista = document.createElement('li');
 
-    // Variable donde vamos a insrtar el elemento <li>
+    // Variable donde vamos a insertar el elemento <li>
     let almacenamientoLi = document.getElementById('listaAmigos');
         
     // Bucle para iterar los nombres de la lista
@@ -19,7 +19,7 @@ function agregarAmigo() {
         elementoLista.innerHTML = element;
     });
 
-    // Valida que el nombre ingrsado no haya sido ya registrado
+    // Valida que el nombre ingresado no haya sido ya registrado
     if (listaNombre.includes(nombreAmigo)) {
         alert('este nombre ya fue agregado');
 
