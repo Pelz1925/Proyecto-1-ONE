@@ -164,6 +164,30 @@ ul {
 input:invalid {
     border: 3px solid rgb(153, 51, 32);
     background-color: rgb(247, 110, 86);
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    5%,
+    45% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    10%,
+    40% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    15%,
+    25%,
+    35% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    20%,
+    30% {
+      transform: translate3d(4px, 0, 0);
+    }
 }
 
 input {
